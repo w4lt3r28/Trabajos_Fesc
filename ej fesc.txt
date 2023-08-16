@@ -1,0 +1,124 @@
+Algoritmo decimo
+	contador=0
+	Escribir "hasta que nota desea contar? "
+	leer n
+	Para i<-0 Hasta n-1 Con Paso 1 Hacer
+		Escribir "ingrese la nota numero ", i+1
+		leer nota
+		contador=contador+nota
+	Fin Para
+	promedio= contador/n
+	Escribir "el promedio es de ", promedio
+	Escribir "tercera nota es igual a ", promedio*0.2
+FinAlgoritmo
+
+
+Algoritmo seis
+	Escribir "ingrese hasta que numero se desea contar "
+	leer n
+	para i desde 0 hasta n Con Paso 1
+		Escribir i
+	FinPara
+FinAlgoritmo
+
+
+Algoritmo cinco
+	para i desde 0 hasta 100 Con Paso 1
+		Escribir i
+	FinPara
+FinAlgoritmo
+
+
+Algoritmo ocho
+	Escribir "ingrese una temperatura "
+	leer temperatura 
+	Escribir "en que escala de temperatura está. celcius(1) farhenrwrnew(2) kelvin(3) "
+	leer escala
+	si escala==1 Entonces
+		
+		proceso1=temperatura+273.15
+		subproceso1=(temperatura * 9/5) + 32
+		Escribir " la conversion entre celcius a kelvin es ", proceso1
+		Escribir "la conversion entre celcius a farhenheit ", subproceso1
+	FinSi
+	
+	si escala==2 Entonces
+		proceso2=(temperatura-32)* 5/9
+		subproceso2=(temperatura - 32) * 5/9 + 273.15 
+		Escribir "la conversion entre farhenheit a celcius es ", proceso2
+		Escribir "la conversion entre farenheit a kelvin es ", subproceso2
+	FinSi
+	
+	si escala==3 Entonces
+		proceso3=temperatura-273.15
+		subproceso3=(temperatura  - 273.15) * 9/5 + 32 
+		Escribir "la conversion de kelvin a celcius es ", proceso3
+		Escribir "la conversion de kelvin a farenheit es ", subproceso3
+	FinSi
+	
+FinAlgoritmo
+
+
+Algoritmo nueve
+	Escribir "cual fue su primera nota¿? "
+	leer n1
+	Escribir "cual fue su segunda nota¿?" 
+	leer n2
+	Escribir "cual fue su tercera nota ¿?"
+	leer n3
+	Escribir "cual fue su nota final¿? "
+	leer n4
+	op= (n1*0.25)+ (n2*0.25)+ (n3*0.2)+ (n4*0.3)
+	Escribir "el promedio de sus notas es ", op
+	
+FinAlgoritmo
+
+
+Algoritmo uno
+	Escribir "hola mundo"
+FinAlgoritmo
+
+
+
+Algoritmo dos
+	Escribir "cual es tu nombre "
+	leer name
+	Escribir "holaaa", name
+FinAlgoritmo
+
+
+Algoritmo septimo
+	Definir kg, lb, gr Como Real
+	Escribir "Hola bienvenido por favor ingrese el peso en libras del objeto para hacer su respectiva conversión a KG y GR";
+	Leer lb
+	KG<-lb/2.205
+	GR<-lb*453.6
+	Escribir "Los valores convertidos a kilogramos ", kg, " y gramos ", gr
+FinAlgoritmo
+
+
+Algoritmo tres
+	Definir Dig1, Dig2, Dig3 Como Real
+	Escribir "quehubo profe, bienvenido a la calculadora basica que cree";
+	Escribir "Por favor ingrese el primer digito a sumar";
+	Leer Dig1
+	Escribir "Por favor ingrese el segundo digito a sumar";
+	Leer Dig2
+	Dig3<-Dig1+Dig2;
+	Escribir "La suma de los numeros es: " Dig3
+FinAlgoritmo
+
+
+Algoritmo cuatro
+	Escribir "holaaaaaaaa, ingrese su edad para determinad si tiene mayoria de edad "
+	leer edad
+	si edad>= 18 Entonces
+		Escribir "eres mayor de edad ajshaj "
+	SiNo
+		Escribir "no eres mayor de edad, bye"
+	FinSi
+FinAlgoritmo
+
+
+
+
